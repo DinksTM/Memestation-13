@@ -560,7 +560,7 @@ This is here to make the tiles around the station mininuke change when it's arme
 	icon_state = "datadisk0"
 
 /obj/item/disk/nuclear
-	name = "nuclear authentication disk"
+	name = "nuclear authentication cracker"
 	desc = "Better keep this safe."
 	icon_state = "nucleardisk"
 	persistence_replacement = /obj/item/disk/nuclear/fake

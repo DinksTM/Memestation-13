@@ -1,5 +1,5 @@
 /datum/antagonist/nukeop
-	name = "Nuclear Operative"
+	name = "Wallace and Gromitt Operative"
 	roundend_category = "syndicate operatives" //just in case
 	antagpanel_category = "NukeOp"
 	job_rank = ROLE_OPERATIVE
@@ -161,7 +161,7 @@
 			H.update_icons()
 
 /datum/antagonist/nukeop/leader/give_alias()
-	title = pick("Czar", "Boss", "Commander", "Chief", "Kingpin", "Director", "Overlord")
+	title = pick("Tsar", "Top Fluke", "Cheeser", "Lead Wedger", "Cheesepin", "Necrophile", "Kleptomaniac")
 	if(nuke_team && nuke_team.syndicate_name)
 		owner.current.real_name = "[nuke_team.syndicate_name] [title]"
 	else

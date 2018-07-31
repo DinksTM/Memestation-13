@@ -1,6 +1,6 @@
 /obj/machinery/nuclearbomb
-	name = "nuclear fission explosive"
-	desc = "You probably shouldn't stick around to see if this is armed."
+	name = "cheese wedge explosive"
+	desc = "You probably shouldn't stick around to see if this has a cracker."
 	icon = 'icons/obj/machines/nuke.dmi'
 	icon_state = "nuclearbomb_base"
 	anchored = FALSE

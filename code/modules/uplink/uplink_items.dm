@@ -228,10 +228,10 @@ GLOBAL_LIST_INIT(uplink_items, subtypesof(/datum/uplink_item))
 	cost = 22
 	surplus = 0
 
-/datum/uplink_item/dangerous/myliege
-	name = "My Liege"
-	desc = "You must keep his lordship fed (not implemented)"
-	item = /obj/item/storage/belt/grenade/full
+/datum/uplink_item/dangerous/hisgrace
+	name = "His Grace"
+	desc = "You must keep his lordship fed"
+	item = /obj/item/his_grace
 	include_modes = list(/datum/game_mode/nuclear)
 	cost = 20
 	surplus = 0

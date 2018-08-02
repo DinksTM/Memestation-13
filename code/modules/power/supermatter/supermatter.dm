@@ -763,7 +763,7 @@ GLOBAL_DATUM(main_supermatter_engine, /obj/machinery/power/supermatter_crystal)
 		else
 			supermatter_zap(target_structure, 5, power / 1.5)
 
-/obj/machinery/power/supermatter_crystal
+/obj/machinery/power/honkmatter_crystal
 	name = "superhonk crystal"
 	desc = "Hilariously lethal"
 	icon = 'icons/obj/supermatter.dmi'

@@ -687,5 +687,14 @@
 	glass = TRUE
 	bound_width = 64 // 2x1
 
+/obj/machinery/door/airlock/large
+	name = "large airlock"
+	icon = 'icons/obj/doors/airlocks/glass_large/glass_large.dmi'
+	overlays_file = 'icons/obj/doors/airlocks/glass_large/overlays.dmi'
+	opacity = 0
+	assemblytype = null
+	glass = FALSE
+	bound_width = 64 // 2x1
+
 /obj/machinery/door/airlock/glass_large/narsie_act()
 	return

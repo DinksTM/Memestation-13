@@ -2,7 +2,7 @@
 //Please do not bother them with bugs from this port, however, as it has been modified quite a bit.
 //Modifications include removing the world-ending full supermatter variation, and leaving only the shard.
 
-#define PLASMA_HEAT_PENALTY 15     // Higher == Bigger heat and waste penalty from having the crystal surrounded by this gas. Negative numbers reduce penalty.
+#define PLASMA_HEAT_PENALTY 30     // Higher == Bigger heat and waste penalty from having the crystal surrounded by this gas. Negative numbers reduce penalty.
 #define OXYGEN_HEAT_PENALTY 1
 #define CO2_HEAT_PENALTY 0.1
 #define NITROGEN_HEAT_MODIFIER -1.5
@@ -762,6 +762,20 @@ GLOBAL_DATUM(main_supermatter_engine, /obj/machinery/power/supermatter_crystal)
 			supermatter_zap(target_structure, 5, power / 2)
 		else
 			supermatter_zap(target_structure, 5, power / 1.5)
+
+/obj/machinery/power/supermatter_crystal
+	name = "superhonk crystal"
+	desc = "Hilariously lethal"
+	icon = 'icons/obj/supermatter.dmi'
+	icon_state = "dankmatter"
+	density = TRUE
+	anchored = TRUE
+	light_range = 4
+	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF | FREEZE_PROOF
+
+	critical_machine = TRUE
+
+
 
 #undef HALLUCINATION_RANGE
 #undef GRAVITATIONAL_ANOMALY

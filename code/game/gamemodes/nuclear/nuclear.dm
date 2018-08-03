@@ -9,9 +9,9 @@
 	enemy_minimum_age = 14
 
 	announce_span = "danger"
-	announce_text = "Syndicate forces are approaching the station in an attempt to destroy it!\n\
-	<span class='danger'>Operatives</span>: Secure the nuclear authentication disk and use your nuke to destroy the station.\n\
-	<span class='notice'>Crew</span>: Defend the nuclear authentication disk and ensure that it leaves with you on the emergency shuttle."
+	announce_text = "Syndicate forces are approaching the station in an attempt to put cheese on your cracker!\n\
+	<span class='danger'>Operatives</span>: Secure the nuclear authentication disk and use your cheese to destroy the station.\n\
+	<span class='notice'>Crew</span>: Defend the nuclear authentication cracker and ensure that it leaves with you on the emergency shuttle."
 
 	var/const/agents_possible = 5 //If we ever need more syndicate agents.
 	var/nukes_left = 1 // Call 3714-PRAY right now and order more nukes! Limited offer!
@@ -117,7 +117,7 @@
 	return M && istype(M) && M.mind && M.mind.has_antag_datum(/datum/antagonist/nukeop)
 
 /datum/outfit/syndicate
-	name = "Syndicate Operative - Basic"
+	name = "Gromit Operative - Basic"
 
 	uniform = /obj/item/clothing/under/syndicate
 	shoes = /obj/item/clothing/shoes/combat
@@ -136,7 +136,7 @@
 
 
 /datum/outfit/syndicate/leader
-	name = "Syndicate Leader - Basic"
+	name = "Gromit Leader - Basic"
 	id = /obj/item/card/id/syndicate/nuke_leader
 	r_hand = /obj/item/nuclear_challenge
 	command_radio = TRUE
@@ -163,7 +163,7 @@
 	H.update_icons()
 
 /datum/outfit/syndicate/full
-	name = "Syndicate Operative - Full Kit"
+	name = "Gromit Operative - Full Kit"
 
 	glasses = /obj/item/clothing/glasses/night
 	mask = /obj/item/clothing/mask/gas/syndicate

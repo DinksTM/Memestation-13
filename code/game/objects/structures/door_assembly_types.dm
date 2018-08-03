@@ -5,6 +5,13 @@
 	glass_type = /obj/machinery/door/airlock/public/glass
 	airlock_type = /obj/machinery/door/airlock/public
 
+/obj/structure/door_assembly/door_assembly_large
+	name = "large public airlock assembly"
+	icon = 'icons/obj/doors/airlocks/glass_large/glass_large.dmi'
+	base_name = "large glass airlock"
+	glass_type = /obj/machinery/door/airlock/glass_large
+	airlock_type = /obj/machinery/door/airlock/glass_large
+
 /obj/structure/door_assembly/door_assembly_com
 	name = "command airlock assembly"
 	icon = 'icons/obj/doors/airlocks/station/command.dmi'
@@ -39,6 +46,13 @@
 	base_name = "atmospherics airlock"
 	glass_type = /obj/machinery/door/airlock/atmos/glass
 	airlock_type = /obj/machinery/door/airlock/atmos
+
+/obj/structure/door_assembly/door_assembly_large_atmos
+	name = "large public airlock assembly"
+	icon = 'icons/obj/doors/airlocks/glass_large/glass_atmos_large.dmi'
+	base_name = "large glass airlock"
+	glass_type = /obj/machinery/door/airlock/glass_atmos_large
+	airlock_type = /obj/machinery/door/airlock/glass_atmos_large
 
 /obj/structure/door_assembly/door_assembly_research
 	name = "research airlock assembly"

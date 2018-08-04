@@ -403,13 +403,13 @@ ROUNDSTART_RACES human
 
 ## Races that are strictly worse than humans that could probably be turned on without balance concerns
 ROUNDSTART_RACES lizard
-#ROUNDSTART_RACES fly
-#ROUNDSTART_RACES moth
+ROUNDSTART_RACES fly
+ROUNDSTART_RACES moth
 ROUNDSTART_RACES plasmaman
 #ROUNDSTART_RACES shadow
 
 ## Races that are better than humans in some ways, but worse in others
-#ROUNDSTART_RACES jelly
+ROUNDSTART_RACES jelly
 #ROUNDSTART_RACES golem
 #ROUNDSTART_RACES adamantine
 #ROUNDSTART_RACES plasma
@@ -418,7 +418,7 @@ ROUNDSTART_RACES plasmaman
 #ROUNDSTART_RACES silver
 #ROUNDSTART_RACES uranium
 #ROUNDSTART_RACES abductor
-#ROUNDSTART_RACES synth
+ROUNDSTART_RACES synth
 
 ## Races that are straight upgrades. If these are on expect powergamers to always pick them
 #ROUNDSTART_RACES skeleton
@@ -444,7 +444,7 @@ OVERFLOW_CAP -1
 #STARLIGHT
 
 ## Uncomment to bring back old grey suit assistants instead of the now default rainbow colored assistants.
-#GREY_ASSISTANTS
+GREY_ASSISTANTS
 
 ## Midround Antag (aka Mulligan antag) config options ###
 
@@ -526,4 +526,4 @@ ROUNDSTART_TRAITS
 #SHIFT_TIME_REALTIME
 
 ## A cap on how many monkeys may be created via monkey cubes
-MONKEYCAP 64
+MONKEYCAP 128

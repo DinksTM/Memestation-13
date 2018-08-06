@@ -2,8 +2,8 @@
 	name = "nuclear emergency"
 	config_tag = "nuclear"
 	false_report_weight = 10
-	required_players = 30 // 30 players - 3 players to be the nuke ops = 27 players remaining
-	required_enemies = 2
+	required_players = 10 // 10 players - adjusted to allow for flukes on lowpop
+	required_enemies = 1
 	recommended_enemies = 5
 	antag_flag = ROLE_OPERATIVE
 	enemy_minimum_age = 14
@@ -109,8 +109,8 @@
 			SSticker.news_report = OPERATIVE_SKIRMISH
 
 /datum/game_mode/nuclear/generate_report()
-	return "One of Central Command's trading routes was recently disrupted by a raid carried out by the Gorlex Marauders. They seemed to only be after one ship - a highly-sensitive \
-			transport containing a nuclear fission explosive, although it is useless without the proper code and authorization disk. While the code was likely found in minutes, the only disk that \
+	return "One of Central Command's trading routes was recently disrupted by a raid carried out by the Gromit Marauders. They seemed to only be after one ship - a highly-sensitive \
+			transport containing a nuclear cheese wedge explosive, although it is useless without the proper code and authorization disk. While the code was likely found in minutes, the only disk that \
 			can activate this explosive is on your station. Ensure that it is protected at all times, and remain alert for possible intruders."
 
 /proc/is_nuclear_operative(mob/M)
@@ -130,7 +130,7 @@
 	backpack_contents = list(/obj/item/storage/box/syndie=1,\
 		/obj/item/kitchen/knife/combat/survival)
 
-	var/tc = 25
+	var/tc = 30
 	var/command_radio = FALSE
 	var/uplink_type = /obj/item/uplink/nuclear
 

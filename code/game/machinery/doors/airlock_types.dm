@@ -380,6 +380,15 @@
 	normal_integrity = 400 // reverse engieneerd: 400 * 1.5 (sec lvl 6) = 600 = original
 	security_level = 6
 
+/obj/machinery/door/airlock/Foundation
+	name = "old airlock"
+	icon = 'icons/obj/doors/airlocks/foundation/Foundation.dmi'
+	overlays_file = 'icons/obj/doors/airlocks/foundation/overlays.dmi'
+	assemblytype = /obj/structure/door_assembly/door_assembly_vault
+	explosion_block = 2
+	normal_integrity = 400 // reverse engieneerd: 400 * 1.5 (sec lvl 6) = 600 = original
+	security_level = 6
+
 //////////////////////////////////
 /*
 	Hatch Airlocks

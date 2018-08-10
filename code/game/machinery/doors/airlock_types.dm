@@ -382,6 +382,7 @@
 
 /obj/machinery/door/airlock/Foundation
 	name = "old airlock"
+	desc =  "An old airlock, bearing a strange logo."
 	icon = 'icons/obj/doors/airlocks/foundation/Foundation.dmi'
 	overlays_file = 'icons/obj/doors/airlocks/foundation/overlays.dmi'
 	assemblytype = /obj/structure/door_assembly/door_assembly_vault

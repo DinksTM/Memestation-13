@@ -200,7 +200,7 @@ GLOBAL_LIST_INIT(wood_recipes, list ( \
 	new/datum/stack_recipe("honey frame", /obj/item/honey_frame, 5, time = 10),\
 	new/datum/stack_recipe("ore box", /obj/structure/ore_box, 4, time = 50, one_per_turf = TRUE, on_floor = TRUE),\
 	new/datum/stack_recipe("wooden crate", /obj/structure/closet/crate/wooden, 6, time = 50, one_per_turf = TRUE, on_floor = TRUE),\
-	new/datum/stack_recipe("baseball bat", /obj/item/melee/baseball_bat, 5, time = 15),\
+	new/datum/stack_recipe("wood airlock assembly", /obj/structure/door_assembly/door_assembly_wood, 4, time = 50, one_per_turf = 1, on_floor = 1), \
 	))
 
 /obj/item/stack/sheet/mineral/wood
